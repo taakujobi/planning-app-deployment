@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 
 const app = express();
 
-let userGoal = 'Learning Kubernetes!';
+let userGoal = 'Advanced Kubernetes!';
 
 app.use(
   bodyParser.urlencoded({
